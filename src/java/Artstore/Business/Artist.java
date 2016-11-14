@@ -17,6 +17,11 @@ public class Artist {
     private String email;
     private String password;
     
+    // empty constructor for initializing an object with no params
+    public Artist() {
+        
+    }
+    
     public Artist(int id, String firstName,String lastName, String email, String password) {
         
         this.id = id;

@@ -28,7 +28,7 @@ public class ArtstoreDB {
         
         try {
             
-            String query = "INSERT INTO ARTISTS"
+            String query = "INSERT INTO ARTIST"
                     + "(first_name, last_name, email, password)"
                     + "VALUES (?, ?, ?, ?)";
             
@@ -46,13 +46,25 @@ public class ArtstoreDB {
         finally {
             
             // close connections
-            connection.close();
+            
             myStmt.close();
+            connection.close();
         }
         
         
     }
     
+    public int updateArtist(Artist artist) {
+        
+        
+        
+        return 0;
+    }
+    
+    
+    public void deleteArtist(Artist artist) {
+        
+    }
     
     // code for INSERT, UPDATE AND DELETE ARTWORK_ITEM'S
     

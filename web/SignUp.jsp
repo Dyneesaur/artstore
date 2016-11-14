@@ -5,6 +5,7 @@
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -12,7 +13,7 @@
         <title>Sign up</title>
     </head>
     <body>
-        <form action="/ArtstoreController" method="">
+        <form action="/Artstore/ArtstoreController" method="post">
             
             First Name:
             <input type="text" placeholder="first name" name="first_name" /> <br />
@@ -25,5 +26,6 @@
             
             <input type="submit" placeholder="submit" name="submit">
         </form>
+        <a href="index.html">Back</a>
     </body>
 </html>
