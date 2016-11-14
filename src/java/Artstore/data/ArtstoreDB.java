@@ -56,9 +56,8 @@ public class ArtstoreDB {
     
     public int updateArtist(Artist artist) {
         
-        
-        
         return 0;
+        
     }
     
     
